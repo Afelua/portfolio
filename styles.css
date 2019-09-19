@@ -18,18 +18,22 @@
 
 .title{
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
+	line-height: 1.2;
+	letter-spacing: 4.78px;
 }
 
 .links{
 	font-size: 12px;
+	line-height: 2.7;
+	letter-spacing: 2.87px;
 	display: flex;
     justify-content: space-between;
     width: 400px;
     padding: 0;
     list-style: none;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -45,11 +49,15 @@
 
 .subtitle{
 	font-size: 20px;
+	line-height: 0.9;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
 .header-name{
-	margin: 150px 0 0 0;
+	position: absolute;
+	top: 150px;
+    left: 30px;
 }
 
 .about{
@@ -58,16 +66,28 @@
 	line-height: 1.6;
 	max-width: 600px;
 	letter-spacing: 0.48px;
+	color: rgba(0, 0, 0, 0.7);
 }
+
 
 .button{
 	color: #fff;
 	border: 2px solid #fff;
+	line-height: 2.8;
+	letter-spacing: 2.87px;
 	font-size: 12px;
 	text-align: center;
-	background: transparent;
 	border-radius: 20.2px;
-	padding: 16px 43px 16px 42px;
+	padding: 0 42px;
+	text-transform: uppercase;
+}
+
+.button-about{
+	background: transparent;
+}
+
+.button-send{
+	background: #000;
 }
 
 .header{
@@ -75,22 +95,32 @@
 	height: 714px;
     background-size: cover;
     background-repeat: no-repeat;
-
+    position: relative;
 }
 
 .wrapper{
 	max-width: 1200px;
     margin: 0 auto;
-    font-family: 'Poppins 1', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.about{
+.about-section{
 	display: flex;
+	letter-spacing: 0.48px;
 }
 
 .years{
 	font-weight: 300;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.7);
 }
 
+.view{
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing: 0.48px;
+	color: #000;
+	text-decoration: none;
+}
 .about-img{
 	width: 308px;
   	height: 340px;
@@ -98,11 +128,19 @@
 
 .subtitle-text{
 	font-size: 12px;
+	text-transform: lowercase;
+}
+
+.download{
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 1.5;
 }
 
 .about-paragraph{
 	display: flex;
-	max-width: 400px;
+	font-weight: 600;
 }
 
 .row {
@@ -119,6 +157,10 @@
 	padding: 50px 0;
 }
 
+.position{
+	font-size: 12px;
+	line-height: 1.5;
+}
 .works-container{
 	display: flex;
 	list-style: none;
@@ -147,4 +189,58 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+}
+
+.inputs{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.textarea{
+	border: none;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+	font-weight: 600;
+	letter-spacing: 2.16px;
+	text-transform: uppercase;
+	font-size: 12px;
+	width: 40%;
+}
+.form-container{
+	display: flex;
+	margin: 30px 0;
+	justify-content: space-between;
+}
+
+.form-section{
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.form-text{
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.input{
+	border: none;
+	padding: 10px 5px 5px;
+    margin: 0 0 30px 0;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+	font-weight: 600;
+	letter-spacing: 2.16px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.input:placeholder{
+ 	color: rgba(0, 0, 0, 0.5);
+ 	font-weight: 600;
+ 	font-size: 12px;
+ 	line-height: 2.8;
+ 	letter-spacing: 2.16px;
+ 	font-family: 'Poppins', sans-serif;
+ 	text-transform: uppercase;
 }
