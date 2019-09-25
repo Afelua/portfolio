@@ -65,13 +65,24 @@
 
 .about{
     font-size: 12px;
-    margin: 25px 0 60px 0;
     line-height: 1.6;
     max-width: 400px;
     letter-spacing: 0.6px;
     color: rgba(0, 0, 0, 0.7);
 }
 
+
+.about-header{
+	margin: 30px 0 60px;
+}
+
+.about-right{
+    margin: 30px 0 0 80px;
+}
+
+.about-about{
+	margin: 25px 0 0;
+}
 .button{
     color: #fff;
     border: 2px solid #fff;
@@ -113,7 +124,7 @@
     display: flex;
     letter-spacing: 0.48px;
     max-width: 1128px;
-    margin: 40px auto;
+	margin: 40px auto 55px;
 }
 
 .years{
@@ -128,6 +139,8 @@
 	letter-spacing: 0.48px;
 	color: #000;
 	text-decoration: none;
+	margin: 15px 0 0;
+    display: block;
 }
 .about-img{
 	width: 308px;
@@ -137,13 +150,15 @@
 .subtitle-text{
 	font-size: 12px;
 	text-transform: lowercase;
+	letter-spacing: 0.48px;
 }
 
 .download{
 	color: #000;
-	text-decoration: none;
 	font-size: 12px;
 	line-height: 1.5;
+	display: block;
+	margin: 30px 0 0 0;
 }
 
 .about-paragraph{
@@ -160,15 +175,26 @@
   	flex: 50%;
 }
 
+.work{
+	margin: 80px 0 0 55px;
+}
+
 .works{
 	text-align: center;
 	background: #d1bac8;
-	padding: 50px 0;
+    padding: 57px 0 65px;
 }
 
 .position{
 	font-size: 12px;
-	line-height: 1.5;
+    line-height: 1.8;
+    margin: 20px 0 0;
+    max-width: 70%;
+}
+
+
+.caption{
+	margin: 50px 0 0;
 }
 
 .works-container{
@@ -176,16 +202,20 @@
 	list-style: none;
 	justify-content: space-around;
 	padding: 0;
+    margin: 45px auto 0;
+    max-width: 1140px;
 }
 
 .works-text{
 	color: rgba(0, 0, 0, 0.6);
-	font-size: 12px;
+	font-size: 13px;
+	margin: 17px 0 0;
+    display: block;
 }
 
 .portfolio-item{
 	position: relative;
-	height: 129px;
+	height: 234px;
 }
 
 .portfolio-item:hover{
@@ -213,33 +243,33 @@
 
 .portfolio-item-text{
 	position: absolute;
-	bottom: 0;
-	width: 100%;
 	transition: all 2s;
 	opacity: 0;
+	bottom: 25px;
+    left: 40px;
+    bottom: 8px;
 }
 
 .inputs{
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 50%;
+	margin: 40px 0 0;
 }
 
 .form-container{
 	display: flex;
-	margin: 30px 0;
-	justify-content: space-between;
+    margin: 30px 0 20px;
 }
 
 .form-section{
-	max-width: 600px;
-	margin: 0 auto;
+	max-width: 730px;
 	text-align: center;
-	padding: 30px 0;
+    margin: 40px auto;
 }
 
 .form-text{
-	font-size: 12px;
+	font-size: 13px;
 	color: rgba(0, 0, 0, 0.7);
 }
 
@@ -249,8 +279,6 @@
 
 .input, .textarea{
 	border: none;
-	padding: 10px 5px 5px;
-    margin: 0 0 30px 0;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 	font-weight: 600;
 	letter-spacing: 2.16px;
@@ -258,6 +286,22 @@
 	font-size: 12px;
 }
 
+
+.input{
+	padding: 10px 0 15px;
+    margin: 0 0 25px 0;
+}
+.textarea{
+	margin: 40px 0 25px 40px;
+    height: 160px;
+    padding: 10px 0 0;
+    line-height: 1.5;
+}
+
+.input:focus,
+.textarea:focus{
+	outline: none;
+}
 .input:placeholder{
  	color: rgba(0, 0, 0, 0.5);
  	font-weight: 600;

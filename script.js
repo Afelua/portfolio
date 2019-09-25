@@ -30,8 +30,8 @@ var d = 50;
 // alert(d);
 
 
-var age = prompt("Сколько вам лет?", 100);
-console.log(age);
+// var age = prompt("Сколько вам лет?", 100);
+// console.log(age);
 
 
-confirm("Вы - администратор?");
+// confirm("Вы - администратор?");
